@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AthletiQ — Smart Analytics for Teams</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9fafb;
+      color: #111827;
+    }
+    header {
+      background: #111827;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h1, h2 {
+      margin-bottom: 1rem;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    }
+    footer {
+      background: #111827;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: 1px solid #d1d5db;
+      border-radius: 0.5rem;
+    }
+    form button {
+      background: #2563eb;
+      color: white;
+      padding: 0.8rem 2rem;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AthletiQ</h1>
+    <p>Smart Performance Analytics for Team Sports</p>
+  </header>
+
+  <section>
+    <h2>What is AthletiQ?</h2>
+    <p>AthletiQ is a wearable-powered analytics system that helps coaches and analysts understand players' movement, heart rate, and effort on the field. Designed for football, basketball, hockey, and more.</p>
+  </section>
+
+  <section>
+    <h2>How It Works</h2>
+    <div class="features">
+      <div class="card">
+        <h3>1. Wearable Devices</h3>
+        <p>Each player wears a Bluetooth fitness tracker that records heart rate and movement data.</p>
+      </div>
+      <div class="card">
+        <h3>2. Real-Time Sync</h3>
+        <p>Data is automatically synced to a laptop or tablet during breaks via BLE and stored in the cloud.</p>
+      </div>
+      <div class="card">
+        <h3>3. Neural Analytics</h3>
+        <p>A trained AI model evaluates player intensity, fatigue, and positioning.</p>
+      </div>
+      <div class="card">
+        <h3>4. Insight Dashboard</h3>
+        <p>Coaches access clear dashboards with heatmaps, fatigue indicators, and player metrics.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Who Is It For?</h2>
+    <p>Professional and semi-pro teams, youth academies, sports schools, and performance analysts.</p>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AthletiQ. All rights reserved.</p>
+  </footer>
+</body>
+</html>
